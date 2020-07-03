@@ -1,4 +1,4 @@
-package annotation_framework;
+package annotation_framework_classwork;
 
 import java.util.concurrent.TimeUnit;
 
