@@ -18,14 +18,14 @@ public class annotation_homework2 extends webdriver_function{
 	public String lnameLoc 	= "//input[@name='lastname']";
 	public String fnameVal 	= "New";
 	public String lnameVal 	= "Name";
-	public String frameloc1="//*[@id=\"email\"]";
-	public String frameloc2="//*[@id=\"pass\"]";
-	public String fnameVal1 	= "New";
+	public String frameloc1 ="//*[@id=\"email\"]";
+	public String frameloc2 ="//*[@id=\"pass\"]";
+	public String fnameVal1 = "New";
 	public String fnameVal2	= "Name";
-	public String frameloc3="//*[@id=\"u_0_r\"]";	
+	public String frameloc3 ="//*[@id=\"u_0_r\"]";	
 	public String frameVal3	= "64637";
-	public String frameloc4="//*[@id=\"password_step_input\"]";
-	public String frameval4="new password";
+	public String frameloc4 ="//*[@id=\"password_step_input\"]";
+	public String frameval4 ="new password";
 	public String radiolocator="//*[@id=\"u_0_y\"]/span[2]/label";
 	@BeforeMethod // it happens before each single test method
 	public void openBrowser(){

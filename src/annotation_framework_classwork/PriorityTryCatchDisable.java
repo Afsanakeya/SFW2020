@@ -7,7 +7,7 @@ public class PriorityTryCatchDisable extends config {
 	
 	
 	
-	@Test (priority=2)
+	/*@Test (priority=2)
 	public void loginTest(){
 		// selenium code
 		System.out.println (" facebook Login test");
@@ -31,7 +31,7 @@ public class PriorityTryCatchDisable extends config {
 		//		Statement stmt = conn.createStatement();
 		//		ResultSet rs = stmt.executeQuery("SELECT Lname FROM Customers WHERE phone = 718");
 
-	}
+	}*/
 	@Test (priority=4)
 	public void skipTest(){
 		System.out.println (" This test is going to be skipped since no longer needed");
