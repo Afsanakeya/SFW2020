@@ -10,6 +10,7 @@ import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class annotation_homework2 extends webdriver_function{
@@ -27,7 +28,8 @@ public class annotation_homework2 extends webdriver_function{
 	public String frameloc4 ="//*[@id=\"password_step_input\"]";
 	public String frameval4 ="new password";
 	public String radiolocator="//*[@id=\"u_0_y\"]/span[2]/label";
-	@BeforeMethod // it happens before each single test method
+	
+    @BeforeMethod // it happens before each single test method
 	public void openBrowser(){
 		System.setProperty("webdriver.chrome.driver", "/Users/afsanakeya/Documents/Automation/selenium/Driver/chromedriver");
 		driver = new ChromeDriver();

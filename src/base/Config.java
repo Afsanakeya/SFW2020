@@ -18,7 +18,7 @@ public class Config extends WDFunctions {
 	@BeforeMethod
 	public void beforeEachTestMethod(){
 		// Init the browser
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Drivers/chromedriver");
 		//System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();

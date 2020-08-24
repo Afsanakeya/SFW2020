@@ -1,4 +1,4 @@
-package test_signIn;
+package Register_Test;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

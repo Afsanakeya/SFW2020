@@ -2,14 +2,17 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/Jar/byte-buddy-1.8.15.jar"/>
-	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/Jar/client-combined-3.141.59-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/Jar/client-combined-3.141.59.jar"/>
-	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/Jar/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/Jar/guava-25.0-jre.jar"/>
-	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/Jar/okhttp-3.11.0.jar"/>
-	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/Jar/okio-1.14.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="/Users/afsanakeya/Documents/Automation/SFW2020/jars/testng-6.9.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
