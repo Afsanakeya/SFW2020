@@ -3,16 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="annotaion_homework.annotation_homework2">
+      <class name="test_signIn.LoginWithValidCredentialUsingEmail">
         <methods>
-          <include name="signinfbtest"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
           <include name="tearDown"/>
-          <include name="skipTest"/>
-          <include name="tryCatchTest"/>
+          <include name="loginWithValidCredentialUsingEmailTest"/>
+          <include name="beforeEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
+          <include name="startTestSuite"/>
         </methods>
-      </class> <!-- annotaion_homework.annotation_homework2 -->
+      </class> <!-- test_signIn.LoginWithValidCredentialUsingEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
